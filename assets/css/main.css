@@ -90,8 +90,6 @@ nav div{
   width: 50%;
 }
 
-
-
 .right-items div{
   float: right;
   width: 55%;
@@ -110,5 +108,67 @@ nav div{
 /* main */
 main{
   padding-top: 53px;
+  width: 600px;
+  margin: auto;
 }
 /* main */
+
+
+section>header div h1{
+  font-size: 2rem;
+  font-family: 'Sriracha', cursive;
+  margin: 30px;
+
+}
+section>header figure>img{
+  width: 800px;
+}
+section>header figure{
+  display: block;
+  position: relative;
+  left: -100px;
+}
+figcaption{
+  font-size: 0.7em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+figcaption>span{
+  font-family: 'Slabo 27px', serif;
+  color: #888888;
+}
+.author{
+  width: 50%;
+  float: left;
+}
+.author h1{
+  font-size: 1.3em;
+  margin-bottom: 5px;
+  margin-left: 0px; 
+  font-weight: 600;
+}
+.author p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+
+}
+.article-social-media{
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+}
+.article-social-media div{
+  float: right;
+  
+}
+.article-social-media ul{
+  display: flex;
+}
+.article-social-media li{
+  padding: 10px 10px;
+}
+.header-clear{
+  clear: both;
+}
+.header-article{
+  margin-bottom: 20px;
+}
